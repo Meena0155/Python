@@ -1,6 +1,10 @@
 #read data from sql server db  
 #read prompt from local file and call llm and write output to local file
 #write into sql serevr db
+#brew install unixodbc
+#brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
+#brew update
+#HOMEBREW_ACCEPT_EULA=Y brew install msodbcsql18 mssql-tools18
 
 import pandas as pd
 import json
