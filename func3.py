@@ -1,3 +1,7 @@
+#read data from sql server db  
+#read prompt from local file and call llm and write output to local file
+#write into sql serevr db
+
 import pandas as pd
 import json
 import pyodbc
